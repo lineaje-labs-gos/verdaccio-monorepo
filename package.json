@@ -1,6 +1,6 @@
 {
   "name": "verdaccio-auth-memory",
-  "version": "5.33.0-lineaje-01",
+  "version": "10.3.1-lineaje-01",
   "description": "Auth plugin for Verdaccio that keeps users in memory",
   "keywords": [
     "verdaccio",
@@ -49,9 +49,11 @@
     "url": "https://opencollective.com/verdaccio"
   },
   "overrides": {
-    "path-to-regexp": ">=0.2.5"
+    "ajv": ">=8.20.0",
+    "minimatch": ">=7.4.9"
   },
   "resolutions": {
-    "path-to-regexp": ">=0.2.5"
+    "ajv": ">=8.20.0",
+    "minimatch": ">=7.4.9"
   }
 }
